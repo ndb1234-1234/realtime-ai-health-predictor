@@ -118,14 +118,14 @@ Visit http://localhost:3001
 
 🧩 Dataset & Model
 Training Data: health_train.csv (30 synthetic records, editable for retraining)
+
 Model: Decision Tree (scikit-learn)
+
 Targets:
 ⚕ Doctor (specialist to consult)
+
 🦠 Disease (most likely issue based on parameters)
 
-To retrain:
-# Edit health_train.csv
-py train_model.py
 
 🖼 Screenshots
 <img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/5074d1f2-f613-4dab-85c1-a665e5a1bd3f" />
