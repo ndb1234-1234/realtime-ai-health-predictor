@@ -130,7 +130,7 @@ Targets:
 🦠 Disease (most likely issue based on parameters)
 
 
-🖼 Screenshots
+## 🖼 Screenshots
 <img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/5074d1f2-f613-4dab-85c1-a665e5a1bd3f" />
 <img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/d9e775eb-9f6e-416a-8581-d1ec11fae68c" />
 <img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/3965fde9-19c8-4e56-b71a-311a1d6edf29" />
