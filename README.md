@@ -80,10 +80,12 @@ proj/
 
 #### 1️⃣ Clone the Repository
 git clone https://github.com/ndb1234-1234/realtime-ai-health-predictor.git
+
 cd health-data-analyzer
 
 #### 2️⃣ Install Backend Dependencies
 cd health-backend
+
 py -m pip install -r requirements.txt
 
 ### 3️⃣ Train the Model
@@ -94,6 +96,7 @@ py app.py
 
 ### 5️⃣ Install Frontend Dependencies
 cd ../health-frontend
+
 npm install
 
 ### 6️⃣ Start The Frontend
