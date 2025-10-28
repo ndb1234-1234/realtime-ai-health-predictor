@@ -50,7 +50,7 @@ It extracts key health parameters from PDF reports, predicts probable diseases, 
 ---
 
 ## 📁 Project Structure
-ece_project/
+proj/
 ├── health-backend/
 │ ├── app.py # Flask backend
 │ ├── train_model.py # ML training script
@@ -62,8 +62,7 @@ ece_project/
 │ ├── public/
 │ └── ... # Other frontend files
 
-yaml
-Copy code
+
 
 ---
 
@@ -86,8 +85,6 @@ cd health-data-analyzer
 #### 2️⃣ Install Backend Dependencies
 cd health-backend
 py -m pip install -r requirements.txt
-# Or manually:
-py -m pip install flask flask_sqlalchemy flask_cors pandas scikit-learn pymupdf psycopg2
 
 ### 3️⃣ Train the Model
 py train_model.py
@@ -131,12 +128,13 @@ To retrain:
 py train_model.py
 
 🖼 Screenshots
-<img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/08582146-0d8e-456e-8c83-3295ec828bb3" />
-<img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/794d2704-f52f-49ce-b0b0-6fc2a1047259" />
-<img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/2ab8f846-b5c2-480d-87d1-a349176cea4f" />
-<img width="1918" height="1017" alt="114" src="https://github.com/user-attachments/assets/08a12555-6a04-4999-93e2-a929a97fac69" />
-<img width="1912" height="743" alt="115" src="https://github.com/user-attachments/assets/3850b2fa-19ee-405f-9168-6ac8fc0b1b2d" />
-<img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/fc77eb05-4ab5-4cdf-badc-de5dbcd29add" />
+<img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/5074d1f2-f613-4dab-85c1-a665e5a1bd3f" />
+<img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/d9e775eb-9f6e-416a-8581-d1ec11fae68c" />
+<img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/3965fde9-19c8-4e56-b71a-311a1d6edf29" />
+<img width="1918" height="1017" alt="114" src="https://github.com/user-attachments/assets/ec4779eb-19ab-480f-a441-182dae489474" />
+<img width="1912" height="743" alt="115" src="https://github.com/user-attachments/assets/3048ccdf-d18c-4e65-8c4a-95fe2d221e6a" />
+<img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/d6ca782c-5cc6-4fe3-8811-90e5a7b8da08" />
+
 
 🤝 Contributing
 
