@@ -80,37 +80,35 @@ Copy code
 ### 🧩 Steps
 
 #### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/health-data-analyzer.git
+git clone https://github.com/ndb1234-1234/realtime-ai-health-predictor.git
 cd health-data-analyzer
-2️⃣ Install Backend Dependencies
-bash
-Copy code
+
+#### 2️⃣ Install Backend Dependencies
 cd health-backend
 py -m pip install -r requirements.txt
 # Or manually:
 py -m pip install flask flask_sqlalchemy flask_cors pandas scikit-learn pymupdf psycopg2
-3️⃣ Train the Model
-bash
-Copy code
+
+### 3️⃣ Train the Model
 py train_model.py
-4️⃣ Start The Backend
-bash
-Copy code
+
+### 4️⃣ Start The Backend
 py app.py
-5️⃣ Install Frontend Dependencies
-bash
-Copy code
+
+### 5️⃣ Install Frontend Dependencies
 cd ../health-frontend
 npm install
-6️⃣ Start The Frontend
-bash
-Copy code
-npm start
-7️⃣ Open in Browser
-Visit http://localhost:3001 (or the port React shows).
 
-🔎 How It Works
+### 6️⃣ Start The Frontend
+npm start
+
+### 7️⃣ Open in Browser
+
+Visit http://localhost:3001
+ (or the port React shows)
+
+ 🔎 How It Works
+
 📄 Choose and upload a PDF with health data.
 
 🤖 Backend extracts six key health features using PyMuPDF.
@@ -123,32 +121,34 @@ Visit http://localhost:3001 (or the port React shows).
 
 🧩 Dataset & Model
 Training Data: health_train.csv (30 synthetic records, editable for retraining)
-
 Model: Decision Tree (scikit-learn)
-
 Targets:
-
 ⚕ Doctor (specialist to consult)
-
 🦠 Disease (most likely issue based on parameters)
 
 To retrain:
-
-bash
-Copy code
 # Edit health_train.csv
 py train_model.py
+
 🖼 Screenshots
-<p align="center"> <img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/08582146-0d8e-456e-8c83-3295ec828bb3" /> <img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/794d2704-f52f-49ce-b0b0-6fc2a1047259" /> <img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/2ab8f846-b5c2-480d-87d1-a349176cea4f" /> <img width="1918" height="1017" alt="114" src="https://github.com/user-attachments/assets/08a12555-6a04-4999-93e2-a929a97fac69" /> <img width="1912" height="743" alt="115" src="https://github.com/user-attachments/assets/3850b2fa-19ee-405f-9168-6ac8fc0b1b2d" /> <img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/fc77eb05-4ab5-4cdf-badc-de5dbcd29add" /> </p>
+<img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/08582146-0d8e-456e-8c83-3295ec828bb3" />
+<img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/794d2704-f52f-49ce-b0b0-6fc2a1047259" />
+<img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/2ab8f846-b5c2-480d-87d1-a349176cea4f" />
+<img width="1918" height="1017" alt="114" src="https://github.com/user-attachments/assets/08a12555-6a04-4999-93e2-a929a97fac69" />
+<img width="1912" height="743" alt="115" src="https://github.com/user-attachments/assets/3850b2fa-19ee-405f-9168-6ac8fc0b1b2d" />
+<img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/fc77eb05-4ab5-4cdf-badc-de5dbcd29add" />
+
 🤝 Contributing
+
 Contributions are welcome!
 Please fork the repo and submit a pull request.
 For major changes, open an issue first to discuss your ideas.
 
 ⚖️ License
+
 This project is licensed under the MIT License.
 
 📬 Contact
+
 Created by: NEMALA DHANA BABU
 📧 Email: 2300040368eceelge@gmail.com
-
