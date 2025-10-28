@@ -139,17 +139,17 @@ Targets:
 <img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/d6ca782c-5cc6-4fe3-8811-90e5a7b8da08" />
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 Please fork the repo and submit a pull request.
 For major changes, open an issue first to discuss your ideas.
 
-⚖️ License
+## ⚖️ License
 
 This project is licensed under the MIT License.
 
-📬 Contact
+## 📬 Contact
 
 Created by: NEMALA DHANA BABU
 📧 Email: 2300040368eceelge@gmail.com
