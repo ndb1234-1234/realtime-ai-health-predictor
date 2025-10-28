@@ -1,0 +1,31 @@
+SpO2,HeartRate,Sleep,Stress,Steps,PeriodicCycle,Doctor,Disease
+88%,110 bpm,6.0 hours,Moderate,2000,Irregular,General Physician,Asthma
+97%,65 bpm,8.0 hours,High,10000,Regular,Gynecologist,Anemia
+98%,90 bpm,8.0 hours,Low,9000,Not Applicable,Cardiologist,Anemia
+91%,72 bpm,8.0 hours,Critical,5000,Not Applicable,Cardiologist,Hypertension
+99%,105 bpm,6.0 hours,Moderate,9000,Not Applicable,Cardiologist,Anemia
+88%,65 bpm,7.0 hours,Low,3000,Regular,Cardiologist,Insomnia
+96%,80 bpm,8.0 hours,Critical,5000,Regular,Pulmonologist,Insomnia
+95%,65 bpm,7.5 hours,Critical,3000,Irregular,Cardiologist,Sleep Apnea
+88%,90 bpm,5.0 hours,Critical,7000,Regular,Gynecologist,None
+98%,80 bpm,6.0 hours,Low,3500,Not Applicable,Endocrinologist,Asthma
+98%,105 bpm,6.0 hours,Low,2000,Not Applicable,Cardiologist,Anemia
+91%,90 bpm,7.0 hours,Low,5000,Regular,Pulmonologist,Anemia
+99%,60 bpm,6.0 hours,High,5000,Not Applicable,Pulmonologist,Hypertension
+97%,72 bpm,6.0 hours,Low,7000,Not Applicable,Cardiologist,None
+91%,105 bpm,8.0 hours,Low,10000,Regular,Endocrinologist,Insomnia
+91%,60 bpm,7.0 hours,Low,6000,Regular,Cardiologist,Asthma
+95%,110 bpm,8.0 hours,High,7000,Not Applicable,Pulmonologist,Sleep Apnea
+100%,105 bpm,5.0 hours,Low,12000,Not Applicable,General Physician,Insomnia
+99%,110 bpm,6.8 hours,Critical,6000,Not Applicable,Gynecologist,None
+93%,80 bpm,5.0 hours,Low,2000,Irregular,Pulmonologist,Sleep Apnea
+91%,60 bpm,6.8 hours,Critical,6000,Irregular,Cardiologist,Hypertension
+100%,72 bpm,8.0 hours,Critical,10000,Irregular,Gynecologist,Hypertension
+93%,90 bpm,5.0 hours,Critical,6000,Regular,Cardiologist,Anemia
+99%,100 bpm,7.0 hours,High,2000,Irregular,Cardiologist,None
+92%,65 bpm,4.5 hours,High,10000,Regular,General Physician,Asthma
+96%,55 bpm,8.0 hours,High,9000,Regular,Gynecologist,Sleep Apnea
+100%,72 bpm,6.8 hours,Low,5000,Irregular,Gynecologist,Insomnia
+94%,60 bpm,7.5 hours,Critical,5000,Irregular,General Physician,None
+92%,100 bpm,6.8 hours,High,3000,Irregular,Pulmonologist,None
+98%,72 bpm,7.5 hours,High,9000,Not Applicable,Cardiologist,Hypertension
