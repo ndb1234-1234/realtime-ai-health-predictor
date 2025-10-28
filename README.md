@@ -9,8 +9,6 @@
 - [🛠 Tech Stack](#-tech-stack)
 - [📁 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
-- [🔎 How It Works](#-how-it-works)
-- [🧩 Dataset & Model](#-dataset--model)
 - [🖼 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
 - [⚖️ License](#-license)
