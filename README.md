@@ -1,149 +1,154 @@
-🚦 Health Data Analyzer
-AI-powered health insights from PDF reports using React, Flask, and Machine Learning
+# 🚦 Health Data Analyzer  
+**AI-powered health insights from PDF reports using React, Flask, and Machine Learning**
 
-📚 Table of Contents
-📝 Overview
+---
 
-✨ Features
+## 📚 Table of Contents
+- [📝 Overview](#-overview)
+- [✨ Features](#-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [🔎 How It Works](#-how-it-works)
+- [🧩 Dataset & Model](#-dataset--model)
+- [🖼 Screenshots](#-screenshots)
+- [🤝 Contributing](#-contributing)
+- [⚖️ License](#-license)
+- [📬 Contact](#-contact)
 
-🛠 Tech Stack
+---
 
-📁 Project Structure
+## 📝 Overview
+**Health Data Analyzer** is an AI-powered web application designed for smart, automatic health triage.  
 
-🚀 Getting Started
+It extracts key health parameters from PDF reports, predicts probable diseases, and recommends the most relevant medical specialists for treatment—all with a modern **React frontend**, **Flask/Python backend**, and **Machine Learning model**.
 
-🔎 How It Works
+🔗 *Realtime health data collection* is enabled by sensors attached to the human body, which monitor vital signs throughout the day.  
+📄 Each uploaded PDF contains averaged readings of these health parameters over a full day, ensuring reliable and representative health insights.  
+📊 This approach bridges **wearable sensor technology** with **smart analytics**, enabling daily health trends to be automatically analyzed and triaged.
 
-🧩 Dataset & Model
+---
 
-🖼 Screenshots
+## ✨ Features
+- 📥 Upload PDF health reports and analyze key parameters (SpO₂, Heart Rate, Sleep, Stress, Steps, Periodic Cycle)
+- 🩺 Predict which type of doctor to consult (e.g., Cardiologist, Pulmonologist)
+- 🚨 Flag potential diseases based on abnormal health parameters
+- ⚡ Instant results with clear recommendations
+- 🖥 Modern, user-friendly web interface
 
-🤝 Contributing
+---
 
-⚖️ License
+## 🛠 Tech Stack
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | React.js |
+| **Backend** | Flask (Python) |
+| **Model** | scikit-learn (Decision Tree) |
+| **Database** | PostgreSQL |
+| **PDF Parsing** | PyMuPDF |
 
-📬 Contact
+---
 
-📝 Overview
-Health Data Analyzer is an AI-powered web application designed for smart, automatic health triage.
-
-It extracts key health parameters from PDF reports, predicts probable diseases, and recommends the most relevant medical specialists for treatment—all with a modern React frontend, Flask/Python backend, and machine learning model.
-
-🔗 Realtime health data collection is enabled by sensors attached to the human body, which monitor vital signs throughout the day.
-📄 Each PDF file uploaded to the system contains the averaged readings of these health parameters over a full day, ensuring more reliable, representative insights for patient health assessment.
-📊 This approach bridges wearable sensor technology with smart analytics: allowing daily health trends from patient devices to be instantly analyzed, flagged, and triaged by the Data Analyzer.
-
-✨ Features
-📥 Upload PDF health reports and analyze key parameters (SpO₂, Heart Rate, Sleep, Stress, Steps, Periodic Cycle)
-
-🩺 Predict which type of doctor to consult (e.g., Cardiologist, Pulmonologist)
-
-🚨 Flag potential diseases based on abnormal health parameters
-
-⚡ Results displayed instantly with clear recommendations
-
-🖥 Modern, user-friendly web interface
-
-🛠 Tech Stack
-Frontend: React.js
-
-Backend: Flask (Python)
-
-Model: scikit-learn (Decision Tree)
-
-Database: PostgreSQL (for report storage)
-
-PDF Parsing: PyMuPDF
-
-📁 Project Structure
-text
+## 📁 Project Structure
 ece_project/
 ├── health-backend/
-│   ├── app.py                 # Flask backend
-│   ├── train_model.py         # ML training script
-│   ├── health_train.csv       # Training dataset
-│   ├── health_model.pkl       # Trained ML model
-│   └── ...                    # Other backend files
+│ ├── app.py # Flask backend
+│ ├── train_model.py # ML training script
+│ ├── health_train.csv # Training dataset
+│ ├── health_model.pkl # Trained ML model
+│ └── ... # Other backend files
 ├── health-frontend/
-│   ├── src/App.js             # React frontend logic
-│   ├── public/
-│   └── ...                    # Other frontend files
-🚀 Getting Started
-Prerequisites
-Python 3.10+
+│ ├── src/App.js # React frontend logic
+│ ├── public/
+│ └── ... # Other frontend files
 
-Node.js 16+
+yaml
+Copy code
 
-npm
+---
 
-PostgreSQL
+## 🚀 Getting Started
 
-Steps
-Clone the Repository
+### ✅ Prerequisites
+- Python 3.10+
+- Node.js 16+
+- npm
+- PostgreSQL
 
-bash
+---
+
+### 🧩 Steps
+
+#### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/yourusername/health-data-analyzer.git
 cd health-data-analyzer
-Install Backend Dependencies
-
+2️⃣ Install Backend Dependencies
 bash
+Copy code
 cd health-backend
 py -m pip install -r requirements.txt
 # Or manually:
 py -m pip install flask flask_sqlalchemy flask_cors pandas scikit-learn pymupdf psycopg2
-Train the Model
-
+3️⃣ Train the Model
 bash
+Copy code
 py train_model.py
-Start The Backend
-
+4️⃣ Start The Backend
 bash
+Copy code
 py app.py
-Install Frontend Dependencies
-
+5️⃣ Install Frontend Dependencies
 bash
+Copy code
 cd ../health-frontend
 npm install
-Start The Frontend
-
+6️⃣ Start The Frontend
 bash
+Copy code
 npm start
-Open in Browser
-
+7️⃣ Open in Browser
 Visit http://localhost:3001 (or the port React shows).
 
 🔎 How It Works
 📄 Choose and upload a PDF with health data.
 
-🤖 Backend extracts six health features using PyMuPDF.
+🤖 Backend extracts six key health features using PyMuPDF.
 
-🧠 ML model predicts probable disease & specialist on-the-fly.
+🧠 Machine Learning model predicts probable disease & doctor type.
 
-🔗 Database stores uploaded reports for history/logging.
+🔗 Database stores reports for history/logging.
 
-🖥 Frontend displays extracted parameters, model prediction, and doctor recommendation.
+🖥 Frontend displays extracted data, predictions, and recommendations.
 
 🧩 Dataset & Model
 Training Data: health_train.csv (30 synthetic records, editable for retraining)
 
-Model: Decision Tree (scikit-learn), trained on key parameters.
+Model: Decision Tree (scikit-learn)
 
 Targets:
 
-⚕ Doctor (which specialist to consult)
+⚕ Doctor (specialist to consult)
 
-🦠 Disease (most likely problem if any abnormality is found)
+🦠 Disease (most likely issue based on parameters)
 
-If you want to re-train, edit health_train.csv and re-run train_model.py.
+To retrain:
 
+bash
+Copy code
+# Edit health_train.csv
+py train_model.py
 🖼 Screenshots
-<img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/08582146-0d8e-456e-8c83-3295ec828bb3" /> <img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/794d2704-f52f-49ce-b0b0-6fc2a1047259" /> <img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/2ab8f846-b5c2-480d-87d1-a349176cea4f" /> <img width="1918" height="1017" alt="114" src="https://github.com/user-attachments/assets/08a12555-6a04-4999-93e2-a929a97fac69" /> <img width="1912" height="743" alt="115" src="https://github.com/user-attachments/assets/3850b2fa-19ee-405f-9168-6ac8fc0b1b2d" /> <img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/fc77eb05-4ab5-4cdf-badc-de5dbcd29add" />
+<p align="center"> <img width="1907" height="963" alt="111" src="https://github.com/user-attachments/assets/08582146-0d8e-456e-8c83-3295ec828bb3" /> <img width="1912" height="958" alt="112" src="https://github.com/user-attachments/assets/794d2704-f52f-49ce-b0b0-6fc2a1047259" /> <img width="573" height="896" alt="113" src="https://github.com/user-attachments/assets/2ab8f846-b5c2-480d-87d1-a349176cea4f" /> <img width="1918" height="1017" alt="114" src="https://github.com/user-attachments/assets/08a12555-6a04-4999-93e2-a929a97fac69" /> <img width="1912" height="743" alt="115" src="https://github.com/user-attachments/assets/3850b2fa-19ee-405f-9168-6ac8fc0b1b2d" /> <img width="1918" height="1018" alt="116" src="https://github.com/user-attachments/assets/fc77eb05-4ab5-4cdf-badc-de5dbcd29add" /> </p>
 🤝 Contributing
-Contributions welcome!
-Please fork the repo and submit a pull request. For major changes, open an issue first to discuss.
+Contributions are welcome!
+Please fork the repo and submit a pull request.
+For major changes, open an issue first to discuss your ideas.
 
 ⚖️ License
 This project is licensed under the MIT License.
 
 📬 Contact
-Created by NEMALA DHANA BABU – 2300040368eceelge@gmail.com
+Created by: NEMALA DHANA BABU
+📧 Email: 2300040368eceelge@gmail.com
+
