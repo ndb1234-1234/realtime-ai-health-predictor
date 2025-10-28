@@ -48,17 +48,7 @@ It extracts key health parameters from PDF reports, predicts probable diseases, 
 ---
 
 ## 📁 Project Structure
-proj/
-├── health-backend/
-│ ├── app.py # Flask backend
-│ ├── train_model.py # ML training script
-│ ├── health_train.csv # Training dataset
-│ ├── health_model.pkl # Trained ML model
-│ └── ... # Other backend files
-├── health-frontend/
-│ ├── src/App.js # React frontend logic
-│ ├── public/
-│ └── ... # Other frontend files
+<img width="470" height="286" alt="image" src="https://github.com/user-attachments/assets/62e2ad09-6154-465a-b037-64bb74abf404" />
 
 
 
